@@ -1,6 +1,6 @@
 package dta.chat.view.console;
 
-import dta.chat.model.ChatMessage;
+import dta.chat.domain.ChatMessage;
 import dta.chat.model.observer.ChatObserver;
 
 public class ChatConsoleConversationView extends ViewComposite implements ChatObserver<ChatMessage> {
